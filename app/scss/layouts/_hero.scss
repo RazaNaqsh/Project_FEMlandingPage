@@ -29,8 +29,6 @@
       order: 2;
       min-height: rem(655);
       background-image: none;
-      //   background-image: url("/images/bg-intro-desktop.svg");
-      //   background-position: left center;
     }
     &::before {
       @include breakpoint-up(large) {
