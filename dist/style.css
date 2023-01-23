@@ -33,7 +33,7 @@
 }
 .fade-in {
   -webkit-animation: fade-in 300ms ease-in-out forwards;
-  animation: fade-in 300ms ease-in-out forwards;
+          animation: fade-in 300ms ease-in-out forwards;
 }
 
 @-webkit-keyframes fade-out {
@@ -67,7 +67,7 @@
 }
 .fade-out {
   -webkit-animation: fade-out 300ms ease-in-out forwards;
-  animation: fade-out 300ms ease-in-out forwards;
+          animation: fade-out 300ms ease-in-out forwards;
 }
 
 html {
@@ -204,11 +204,7 @@ a:hover {
 button,
 .button {
   display: inline-block;
-  background: linear-gradient(
-    to right,
-    hsl(136deg, 65%, 51%),
-    hsl(192deg, 70%, 51%)
-  );
+  background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
   color: hsl(0deg, 0%, 100%);
   padding: 0.875rem 2.1875rem;
   border: 0;
@@ -311,11 +307,7 @@ button:hover,
   left: 0;
   right: 0;
   bottom: -1.9375rem;
-  background: linear-gradient(
-    to right,
-    hsl(136deg, 65%, 51%),
-    hsl(192deg, 70%, 51%)
-  );
+  background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
   opacity: 0;
   transition: opacity 300ms ease-in-out;
   z-index: 0;
@@ -638,4 +630,4 @@ button:hover,
     align-self: end;
     justify-self: end;
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
