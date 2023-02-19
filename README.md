@@ -12,4 +12,4 @@ It took some time to write so many stylings; but the process was worth it and im
 
 
 ### live site
-https://razanaqsh.netlify.app 
+femlandingpage.netlify.app
